@@ -1,0 +1,83 @@
+ .main-nav {
+display: flex;
+
+justify-content: space-between;
+}
+
+.left-nav, .right-nav,{
+  
+}
+
+.left-nav > ul,
+.right-nav > ul {
+display: flex;
+}
+
+.button {
+  // background-color: #326891;
+  // background-color: #6288a5;
+  background-color: transparent;
+  margin: 4px;
+  padding: 7px;
+  color: black;
+  font-weight: bold;
+  border-radius: 3px;
+  // border: 1px solid #265e8b;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+}
+
+.button:hover{
+// background-color: #326891;
+background-color: #f7f7f5;
+
+}
+.subscribe-button, .login-button{
+background-color: #6288a5;
+color: white;
+}
+
+.subscribe-button:hover, .login-button:hover{
+background-color: #326891;
+
+}
+
+.right
+
+
+.left-nav {
+
+  > ul {
+    > li {
+
+    }
+  }
+
+  span {
+
+  }
+}
+
+.right-nav  {
+
+  > ul {
+
+    > li {
+  
+    }
+
+    > li:last-of-type {
+  
+    }
+  }
+  
+  i {
+
+  }
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+
+}

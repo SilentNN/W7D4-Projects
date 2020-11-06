@@ -1,0 +1,18 @@
+.sections-nav {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    a {
+        padding: 5px;
+        font-family: "nyt-franklin",arial,helvetica,sans-serif;
+    }
+
+    .sections a:hover {
+		background-color: $lightest-gray;
+    }
+    
+    .all-sections a:hover {
+        text-decoration: underline;
+    }
+}
